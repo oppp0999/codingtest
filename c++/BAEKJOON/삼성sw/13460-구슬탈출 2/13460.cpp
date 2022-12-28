@@ -9,6 +9,7 @@ struct step
 	int Bx, By;
 	int Count;
 };
+//BFS를 이용하여 문제를 풀기위해 공들의 위치와 움직인 횟수 체크
 
 char map[11][11];
 bool visit[11][11][11][11];
@@ -16,6 +17,7 @@ int N, M;
 int dx[] = { 1,-1,0,0 };
 int dy[] = { 0,0,1,-1 };
 
+//0과 공이 만날 때까지 반복문 진행
 void move(int& rx, int& ry, int& distance, int& i)
 {
 	while (map[rx + dx[i]][ry + dy[i]] != '#' && map[rx][ry] != 'O')
