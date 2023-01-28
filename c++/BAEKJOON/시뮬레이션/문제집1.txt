@@ -3,3 +3,7 @@ https://www.acmicpc.net/workbook/view/7741
 시뮬레이션 및 구현 문제는 문제에서 제시한 상황을 알고리즘으로 수행해내도록 구현하는 문제이다.
 
 게임, 상황 재현 등
+
+
+하드버전
+https://www.acmicpc.net/workbook/view/7743
