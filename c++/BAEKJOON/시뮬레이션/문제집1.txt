@@ -4,6 +4,9 @@ https://www.acmicpc.net/workbook/view/7741
 
 게임, 상황 재현 등
 
+노말버전
+https://www.acmicpc.net/workbook/view/7742
+
 
 하드버전
 https://www.acmicpc.net/workbook/view/7743
