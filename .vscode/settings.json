@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "ios": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "queue": "cpp"
     }
 }

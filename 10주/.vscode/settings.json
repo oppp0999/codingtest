@@ -3,6 +3,7 @@
         "string": "cpp",
         "__split_buffer": "cpp",
         "vector": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "queue": "cpp"
     }
 }
