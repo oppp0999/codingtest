@@ -38,7 +38,7 @@ int main(){
             scanf("%1d", &a[i][j]);
         }
     }
-    BFS(0,0);
+    
     printf("%d", visited[n-1][m-1]);
 
 }
