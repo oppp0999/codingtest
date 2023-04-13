@@ -45,8 +45,6 @@ int main(){
         for(int j = 0; j<m; j++){
             if(a[i][j] == 'L'){
                 BFS(i,j);
-    for(              int  i=0; i<n; i++){
-            }
         }
     }
     cout << cnt -1 << '\n';
