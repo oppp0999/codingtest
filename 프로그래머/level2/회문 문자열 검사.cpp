@@ -45,3 +45,17 @@ int main() {
 	return 0;
 }
 
+/* 
+5
+level
+moon
+abCBa
+soon
+gooG
+
+#1 YES
+#2 NO
+#3 YES
+#4 NO
+#5 YES
+ */

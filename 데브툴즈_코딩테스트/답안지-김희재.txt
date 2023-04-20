@@ -1,0 +1,49 @@
+1.
+#include <iostream>
+#include <algorithm>
+#include <string>
+using namespace std;
+
+void sol(int n){
+    int i = 1;
+        while(i < 4){
+            for(int j=1; j<10; j++){
+                for(int k = n; k<n+4; k++){
+                    cout << k << " * " << j << " = " << k*j << " ";
+                }
+                i++;
+                cout << '\n';
+            }
+        }
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+   
+    
+    sol(2);
+    cout << '\n';
+    sol(6);
+    
+
+
+    return 0;
+}
+
+2. select e.EMPNO AS '부서번호', COUNT(*) AS '근무자수', SUM(EMP.salary) AS '급여합' FROM EMP e;
+
+3. select e AS
+
+4. 
+4.1 inner join -> 두 개의 테이블에서 일치하는 값
+4.2 LEFT join -> 왼쪽 테이블 값, 오른쪽 테이블과 일치 하는 값
+4.3 LEFT outer join -> where 에서 b 는 null 처리
+4.4 FULL outer join -> 테이블 간에 서로 다른 값
+4.5 FULL join -> 해당하는 테이블 모든 값
+
+5. 
+int t = p;
+p = q;
+q = t;
